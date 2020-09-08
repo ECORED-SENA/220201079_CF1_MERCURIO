@@ -1,0 +1,84 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","introduccion"],
+    "path": "pages/intro.html"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "terminologia",
+    "title": "1. Terminología Básica sobre el mercurio y su presencia en la historia de la humanidad",
+    "breadcrumb": ["Inicio","terminologia"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "terminologia",
+        "title": "Hechos históricos sobre el mercurio",
+        "anchor": "hechos"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "terminologia",
+        "title": "Usos del Mercurio",
+        "anchor": "usos"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "introduccion2",
+    "title": "2. Introducción al comportamiento ambiental del mercurio",
+    "breadcrumb": ["Inicio","introduccion2"],
+    "path": "pages/2-tema.html"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text",
+    "slug": "panorama",
+    "title": "3. Panorama de la contaminación por mercurio: cifras y países",
+    "breadcrumb": ["Inicio","panorama"],
+    "path": "pages/3-tema.html"
+  },
+  {
+    "id": 5,
+    "icon": "fa fa-file-text",
+    "slug": "efectos",
+    "title": "4. Efectos del mercurio sobre la salud: fuentes y vías de exposición",
+    "breadcrumb": ["Inicio","efectos"],
+    "path": "pages/4-tema.html"
+  },
+  {
+    "id": 6,
+    "icon": "fa fa-file-text",
+    "slug": "roles",
+    "title": "5. Roles y responsabilidades de las autoridades colombianas",
+    "breadcrumb": ["Inicio","roles"],
+    "path": "pages/5-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "roles",
+        "title": "Convenio de Minamata y el ciclo de vida del mercurio",
+        "anchor": "convenio"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "roles",
+        "title": "Regulación y responsabilidades en Colombia para eliminar el uso del mercurio",
+        "anchor": "regulacion"
+      }
+    ]
+  }
+]

@@ -1,0 +1,190 @@
+.container#panorama
+
+    .header-ecored
+
+        h1 3. Panorama de la contaminación por mercurio: cifras y países
+
+    .card
+
+        .card-body
+
+            .card-text
+
+                .row
+
+                    .col-12.text-center
+
+                        img.img-fluid(src="assets/images/pages/img19.png", style="max-width: 100%").mb-3
+                    
+                    .col-12
+
+                        p Estas cifras nos indican que el mercurio utilizado en la minería de oro artesanal y a pequeña escala es uno de los principales responsables de la contaminación por mercurio en el mundo.
+        
+        .row.mx-0.bg-color1
+
+            .col-12
+
+                p.text-center
+                    b Emisiones mundiales de mercurio por actividad
+            
+            .col-12.my-4.text-center
+
+                img.img-fluid(src="assets/images/pages/img20.png", style="max-width: 80%")
+        
+        .row.mx-3.p-3
+
+            p Sin embargo, otras actividades humanas componen el 60% de emisiones restantes, como: la incineración de carbón, la producción de cobre y cemento, y el inadecuado manejo de residuos de productos con mercurio.
+    
+    .card
+
+        .card-body
+
+            .card-text
+
+                .row
+
+                    .col-12
+
+                        p Veamos los países que componen los 8 mayores emisores de mercurio en el mundo y las actividades de dónde provienen esas emisiones.
+            
+        .row.mx-0.text-center.bg-color5
+
+            .col-12
+
+                p
+                    b Emisiones de mercurio por país y actividad
+
+        .row.mx-0.justify-content-center
+
+            .col-12.px-0
+
+                table.table.table-striped.m-0
+                    thead.thead-dark
+                        tr
+                            th.table1 Países
+                            th.table1 Minería de oro artesanal
+                            th.table1 Combustión de carbón
+                            th.table1 Metales no ferrosos
+                            th.table1 Producción de cemento
+                            th.table1 Residuos de productos
+                            th.table1 Otros
+
+                    tbody
+                        tr
+                            td.table2 EEUU
+                            td.table2 -
+                            td.table2 41,165
+                            td.table2 2,733
+                            td.table2 1,848
+                            td.table2 4,189
+                            td.table2 3,688
+                        tr
+                            td.table1 Ghana
+                            td.table1 52,5
+                            td.table1 4,73
+                            td.table1 0
+                            td.table1 0
+                            td.table1 0
+                            td.table1 0
+                        tr
+                            td.table2 Rusia
+                            td.table2 5,5
+                            td.table2 9,208
+                            td.table2 22,545
+                            td.table2 1,279
+                            td.table2 5,089
+                            td.table2 14,858
+                        tr
+                            td.table1 Sudáfrica
+                            td.table1 3,75
+                            td.table1 42,064
+                            td.table1 12,326
+                            td.table1 975
+                            td.table1 998
+                            td.table1 290
+                        tr
+                            td.table2 Colombia
+                            td.table2 60
+                            td.table2 460
+                            td.table2 1,894
+                            td.table2 696
+                            td.table2 639
+                            td.table2 14
+                        tr
+                            td.table1 Indonesia
+                            td.table1 58,333
+                            td.table1 6,421
+                            td.table1 7,846
+                            td.table1 2,784
+                            td.table1 2,295
+                            td.table1 1,936
+                        tr
+                            td.table2 India
+                            td.table2 1,125
+                            td.table2 89,444
+                            td.table2 22,536
+                            td.table2 13,421
+                            td.table2 13,692
+                            td.table2 0
+                        tr
+                            td.table1 China
+                            td.table1 166,688
+                            td.table1 179,557
+                            td.table1 94,79
+                            td.table1 22,498
+                            td.table1 22,797
+                            td.table1 0
+
+        .row.mx-0.bg-color
+
+            .col-12.text-center
+
+                img.img-fluid(src="assets/images/pages/img9.svg", style="max-width: 70%")
+
+    .card
+
+        .card-body
+
+            .card-text
+
+                .row
+
+                    .col-12
+
+                        p Observe la siguiente conversación para profundizar sobre el panorama en Colombia:
+        
+        .row.mx-0
+
+            .col-12.px-0
+
+                #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+                    ol.carousel-indicators
+                        li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+                        li(data-target='#carouselExampleIndicators', data-slide-to='1')
+                        li(data-target='#carouselExampleIndicators', data-slide-to='2')
+                        li(data-target='#carouselExampleIndicators', data-slide-to='3')
+                        li(data-target='#carouselExampleIndicators', data-slide-to='4')
+                    .carousel-inner
+                        .carousel-item.active
+                            img.d-block.w-100(src='assets/images/pages/img10.svg', alt='0')
+                        .carousel-item
+                            img.d-block.w-100(src='assets/images/pages/img11.svg', alt='1')
+                        .carousel-item
+                            img.d-block.w-100(src='assets/images/pages/img12.svg', alt='2')
+                        .carousel-item
+                            img.d-block.w-100(src='assets/images/pages/img13.svg', alt='3')
+                        .carousel-item
+                            img.d-block.w-100(src='assets/images/pages/img14.svg', alt='4')                          
+                                                                                    
+                    a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
+                        span.carousel-control-prev-icon(aria-hidden='true')
+                        span.sr-only Previous
+                    a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
+                        span.carousel-control-next-icon(aria-hidden='true')
+                        span.sr-only Next
+
+    .row
+
+            .col-12.text-center
+
+                img.img-fluid(src="assets/images/pages/img21.png", style="max-width: 100%")
