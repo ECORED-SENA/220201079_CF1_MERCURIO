@@ -16,56 +16,54 @@
   {
     "id": 2,
     "icon": "fa fa-file-text",
-    "slug": "terminologia",
-    "title": "1. Terminología Básica sobre el mercurio y su presencia en la historia de la humanidad",
-    "breadcrumb": ["Inicio","terminologia"],
+    "slug": "conceptos",
+    "title": "1. Conceptos iniciales sobre el mercurio",
+    "breadcrumb": ["Inicio","conceptos"],
     "path": "pages/1-tema.html",
     "submenu": [
       {
         "icon": "fa fa-file-text",
-        "slug": "terminologia",
-        "title": "Hechos históricos sobre el mercurio",
-        "anchor": "hechos"
+        "slug": "conceptos",
+        "title": "Terminología Básica sobre el mercurio y su presencia en la historia de la humanidad",
+        "anchor": "terminologia"
       },
       {
         "icon": "fa fa-file-text",
-        "slug": "terminologia",
-        "title": "Usos del Mercurio",
-        "anchor": "usos"
+        "slug": "conceptos",
+        "title": "Introducción al comportamiento ambiental del mercurio",
+        "anchor": "introduccion1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "conceptos",
+        "title": "Panorama de la contaminación por mercurio: cifras y países",
+        "anchor": "panorama"
       }
     ]
   },
   {
     "id": 3,
     "icon": "fa fa-file-text",
-    "slug": "introduccion2",
-    "title": "2. Introducción al comportamiento ambiental del mercurio",
-    "breadcrumb": ["Inicio","introduccion2"],
-    "path": "pages/2-tema.html"
+    "slug": "impactos",
+    "title": "2. Impactos del mercurio en la salud",
+    "breadcrumb": ["Inicio","efectos"],
+    "path": "pages/2-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "impactos",
+        "title": "Efectos del mercurio sobre la salud: fuentes y vías de exposición",
+        "anchor": "efectos"
+      }
+    ]
   },
   {
     "id": 4,
     "icon": "fa fa-file-text",
-    "slug": "panorama",
-    "title": "3. Panorama de la contaminación por mercurio: cifras y países",
-    "breadcrumb": ["Inicio","panorama"],
-    "path": "pages/3-tema.html"
-  },
-  {
-    "id": 5,
-    "icon": "fa fa-file-text",
-    "slug": "efectos",
-    "title": "4. Efectos del mercurio sobre la salud: fuentes y vías de exposición",
-    "breadcrumb": ["Inicio","efectos"],
-    "path": "pages/4-tema.html"
-  },
-  {
-    "id": 6,
-    "icon": "fa fa-file-text",
     "slug": "roles",
-    "title": "5. Roles y responsabilidades de las autoridades colombianas",
+    "title": "3. Roles y responsabilidades de las autoridades colombianas",
     "breadcrumb": ["Inicio","roles"],
-    "path": "pages/5-tema.html",
+    "path": "pages/3-tema.html",
     "submenu": [
       {
         "icon": "fa fa-file-text",
