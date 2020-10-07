@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "icon": "fa fa-file-text",
+    "icon": "fa fa-play-circle",
     "slug": "conceptos",
     "title": "1. Conceptos iniciales sobre el mercurio",
     "breadcrumb": ["Inicio","conceptos"],
@@ -28,7 +28,19 @@
         "anchor": "terminologia"
       },
       {
-        "icon": "fa fa-file-text",
+        "icon": "fa fa-question-circle",
+        "slug": "conceptos",
+        "title": "Actividad didáctica: Enseñanza de historias del mercurio",
+        "anchor": "actividad-1"
+      },
+      {
+        "icon": "fa fa-question-circle",
+        "slug": "conceptos",
+        "title": "Actividad didáctica: Procesos y productos con mercurio añadido",
+        "anchor": "actividad-2"
+      },      
+      {
+        "icon": "fa fa-play-circle",
         "slug": "conceptos",
         "title": "1.2 Introducción al comportamiento ambiental del mercurio",
         "anchor": "introduccion1"
@@ -43,14 +55,14 @@
   },
   {
     "id": 3,
-    "icon": "fa fa-file-text",
+    "icon": "fa fa-play-circle",
     "slug": "impactos",
     "title": "2. Impactos del mercurio en la salud",
     "breadcrumb": ["Inicio","efectos"],
     "path": "pages/2-tema.html",
     "submenu": [
       {
-        "icon": "fa fa-file-text",
+        "icon": "fa fa-play-circle",
         "slug": "impactos",
         "title": "2.1 Efectos del mercurio sobre la salud: fuentes y vías de exposición",
         "anchor": "efectos"
@@ -59,20 +71,20 @@
   },
   {
     "id": 4,
-    "icon": "fa fa-file-text",
+    "icon": "fa fa-play-circle",
     "slug": "roles",
     "title": "3. Roles y responsabilidades de las autoridades colombianas",
     "breadcrumb": ["Inicio","roles"],
     "path": "pages/3-tema.html",
     "submenu": [
       {
-        "icon": "fa fa-file-text",
+        "icon": "fa fa-play-circle",
         "slug": "roles",
         "title": "3.1 Convenio de Minamata y el ciclo de vida del mercurio",
         "anchor": "convenio"
       },
       {
-        "icon": "fa fa-file-text",
+        "icon": "fa fa-play-circle",
         "slug": "roles",
         "title": "3.2 Regulación y responsabilidades en Colombia para eliminar el uso del mercurio",
         "anchor": "regulacion"
